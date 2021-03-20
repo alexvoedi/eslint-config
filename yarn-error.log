@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;c:\users\voedi\appdata\local\packages\pythonsoftwarefoundation.python.3.8_qbz5n2kfra8p0\localcache\local-packages\python38\site-packages;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\voedi\.cargo\bin;C:\Users\voedi\AppData\Local\Microsoft\WindowsApps;C:\Users\voedi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\voedi\AppData\Local\GitHubDesktop\bin;C:\Users\voedi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;c:\users\voedi\appdata\local\packages\pythonsoftwarefoundation.python.3.8_qbz5n2kfra8p0\localcache\local-packages\python38\site-packages;C:\Users\voedi\AppData\Roaming\Python\Python39\Scripts;C:\Users\voedi\AppData\Local\yarn\bin;C:\Users\voedi\AppData\Roaming\npm;C:\Users\voedi\AppData\Local\Yarn\bin;C:\Users\voedi\.cargo\bin;C:\Users\voedi\.dotnet\tools;C:\php;C:\Users\voedi\AppData\Roaming\Composer\vendor\bin;C:\Users\voedi\AppData\Local\Programs\MiKTeX\miktex\bin\x64;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  {
+    "name": "@alexvoedi/eslint-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "Alexander Vödisch",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

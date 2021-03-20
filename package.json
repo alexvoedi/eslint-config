@@ -1,0 +1,8 @@
+{
+  "name": "@alexvoedi/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Alexander Vödisch",
+  "license": "MIT"
+}
